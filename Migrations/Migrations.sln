@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{EE3A4330-A8B4-480C-A223-979879383430}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{452CCC80-5BE9-4D07-9335-6FCA71C84B04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataModel", "DataModel", "{41CDD86B-0D20-4E51-8D5A-FA1DB2FB4DC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{1729EF22-8FA9-4076-B2A7-6B31FCB2F98F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{C2A9D320-BC1B-48DB-AE71-363BBDF71EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrations.Data", "Infraestructure\DataModel\Migrations.Data\Migrations.Data.csproj", "{4CCDE3D7-D021-44AB-8007-963C5C4A0E4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrations.Entities", "Domain\Entities\Migrations.Entities\Migrations.Entities.csproj", "{81EDDBC3-F128-488D-92C3-2CC970BF5B98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CCDE3D7-D021-44AB-8007-963C5C4A0E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCDE3D7-D021-44AB-8007-963C5C4A0E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCDE3D7-D021-44AB-8007-963C5C4A0E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCDE3D7-D021-44AB-8007-963C5C4A0E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81EDDBC3-F128-488D-92C3-2CC970BF5B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EDDBC3-F128-488D-92C3-2CC970BF5B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EDDBC3-F128-488D-92C3-2CC970BF5B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EDDBC3-F128-488D-92C3-2CC970BF5B98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1729EF22-8FA9-4076-B2A7-6B31FCB2F98F} = {EE3A4330-A8B4-480C-A223-979879383430}
+		{41CDD86B-0D20-4E51-8D5A-FA1DB2FB4DC4} = {452CCC80-5BE9-4D07-9335-6FCA71C84B04}
+		{C2A9D320-BC1B-48DB-AE71-363BBDF71EFA} = {452CCC80-5BE9-4D07-9335-6FCA71C84B04}
+		{4CCDE3D7-D021-44AB-8007-963C5C4A0E4C} = {41CDD86B-0D20-4E51-8D5A-FA1DB2FB4DC4}
+		{81EDDBC3-F128-488D-92C3-2CC970BF5B98} = {1729EF22-8FA9-4076-B2A7-6B31FCB2F98F}
+	EndGlobalSection
+EndGlobal
