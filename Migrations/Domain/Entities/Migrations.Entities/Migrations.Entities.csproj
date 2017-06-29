@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataModel\Domicilio.cs" />
+    <Compile Include="DataModel\Formacion.cs" />
     <Compile Include="DataModel\Pais.cs" />
     <Compile Include="DataModel\Persona.cs" />
     <Compile Include="DataModel\Ubigeo.cs" />
