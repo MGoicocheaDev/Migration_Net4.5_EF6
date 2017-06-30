@@ -16,6 +16,8 @@ namespace Migrations.Entities.DataModel
         public string Urbanizacion { get; set; }
         public string CodigoUbigeo { get; set; }
         public Ubigeo Ubigeo { get; set; }
+        public DateTime FechaCreacion { get; set; }
+        public DateTime FechaActualizacion { get; set; }
 
     }
 }

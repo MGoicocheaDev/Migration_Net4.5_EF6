@@ -39,10 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataModel\AreaEstudio.cs" />
     <Compile Include="DataModel\Domicilio.cs" />
+    <Compile Include="DataModel\EstadoFormacion.cs" />
     <Compile Include="DataModel\Formacion.cs" />
     <Compile Include="DataModel\Pais.cs" />
     <Compile Include="DataModel\Persona.cs" />
+    <Compile Include="DataModel\TipoFormacion.cs" />
     <Compile Include="DataModel\Ubigeo.cs" />
     <Compile Include="Enum\Genero.cs" />
     <Compile Include="Enum\TipoDireccion.cs" />

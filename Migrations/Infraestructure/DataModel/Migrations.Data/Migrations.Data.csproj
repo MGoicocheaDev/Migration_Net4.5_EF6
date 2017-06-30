@@ -51,21 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataModel\MigrationsContext.cs" />
-    <Compile Include="Migrations\201706282356470_add-Pais.cs" />
-    <Compile Include="Migrations\201706282356470_add-Pais.Designer.cs">
-      <DependentUpon>201706282356470_add-Pais.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706290021104_add-Ubigeo.cs" />
-    <Compile Include="Migrations\201706290021104_add-Ubigeo.Designer.cs">
-      <DependentUpon>201706290021104_add-Ubigeo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706290024461_add-Persona.cs" />
-    <Compile Include="Migrations\201706290024461_add-Persona.Designer.cs">
-      <DependentUpon>201706290024461_add-Persona.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706290025007_add-Domicilio.cs" />
-    <Compile Include="Migrations\201706290025007_add-Domicilio.Designer.cs">
-      <DependentUpon>201706290025007_add-Domicilio.cs</DependentUpon>
+    <Compile Include="Migrations\201706301615218_add-Model.cs" />
+    <Compile Include="Migrations\201706301615218_add-Model.Designer.cs">
+      <DependentUpon>201706301615218_add-Model.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,17 +69,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201706282356470_add-Pais.resx">
-      <DependentUpon>201706282356470_add-Pais.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706290021104_add-Ubigeo.resx">
-      <DependentUpon>201706290021104_add-Ubigeo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706290024461_add-Persona.resx">
-      <DependentUpon>201706290024461_add-Persona.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706290025007_add-Domicilio.resx">
-      <DependentUpon>201706290025007_add-Domicilio.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706301615218_add-Model.resx">
+      <DependentUpon>201706301615218_add-Model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

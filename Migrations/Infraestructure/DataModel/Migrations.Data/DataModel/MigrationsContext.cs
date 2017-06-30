@@ -113,6 +113,10 @@ namespace Migrations.Data.DataModel
         public virtual DbSet<Ubigeo> Ubigeo { get; set; }
         public virtual DbSet<Pais> Pais { get; set; }
         public virtual DbSet<Domicilio> Domicilio { get; set; }
+        public virtual DbSet<Formacion> Formacion { get; set; }
+        public virtual DbSet<TipoFormacion> TipoFormacion { get; set; }
+        public virtual DbSet<EstadoFormacion> EstadoFormacion { get; set; }
+        public virtual DbSet<AreaEstudio> AreaEstudio { get; set; }
     }
 
 }
