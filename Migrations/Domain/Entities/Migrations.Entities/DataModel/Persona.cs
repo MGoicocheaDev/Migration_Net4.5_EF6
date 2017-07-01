@@ -23,5 +23,8 @@ namespace Migrations.Entities.DataModel
         public Domicilio Domicilio { get; set; }
         public DateTime FechaCreacion { get; set; }
         public DateTime FechaActualizacion { get; set; }
+
+        public List<Formacion> Estudios { get; set; }
+        public List<ExperienciaLaboral> ExperienciaLaborales { get; set; }
     }
 }

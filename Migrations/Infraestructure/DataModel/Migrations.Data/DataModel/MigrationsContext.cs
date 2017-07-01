@@ -107,6 +107,43 @@ namespace Migrations.Data.DataModel
                 .HasMaxLength(150);
 
             #endregion
+
+            #region Formacion
+
+            modelBuilder.Entity<Formacion>()
+                .Property(x => x.Titulo)
+                .HasMaxLength(250)
+                .IsRequired();
+
+            modelBuilder.Entity<Formacion>()
+                .Property(x => x.Institucion)
+                .HasMaxLength(300)
+                .IsRequired();
+
+            modelBuilder.Entity<Formacion>()
+                .Property(x => x.MesFin)
+                .IsOptional();
+
+            modelBuilder.Entity<Formacion>()
+                .Property(x => x.AnioFin)
+                .IsOptional();
+
+            modelBuilder.Entity<Formacion>()
+                .Property(x => x.MesInicio)
+                .IsOptional();
+
+            modelBuilder.Entity<Formacion>()
+                .Property(x => x.AnioInicio)
+                .IsOptional();
+
+            modelBuilder.Entity<Formacion>()
+                .Property(x => x.FechaActualizacion)
+                .IsOptional();
+
+            modelBuilder.Entity<Formacion>()
+                .Property(x => x.Promedio)
+                .IsOptional();
+            #endregion
         }
 
         public virtual DbSet<Persona> Persona { get; set; }
@@ -116,7 +153,7 @@ namespace Migrations.Data.DataModel
         public virtual DbSet<Formacion> Formacion { get; set; }
         public virtual DbSet<TipoFormacion> TipoFormacion { get; set; }
         public virtual DbSet<EstadoFormacion> EstadoFormacion { get; set; }
-        public virtual DbSet<AreaEstudio> AreaEstudio { get; set; }
+        public virtual DbSet<AreaFormacion> AreaEstudio { get; set; }
     }
 
 }

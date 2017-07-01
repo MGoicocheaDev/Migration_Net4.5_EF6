@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Migrations.Entities.DataModel
 {
-    public class AreaEstudio
+    public class AreaLaboral
     {
-        public int AreaEstudioId { get; set; }
+        public int AreaLaboralId { get; set; }
         public string Nombre { get; set; }
     }
 }
